@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Feriados</title>
+</head>
+
+<style>
+    body{
+        background-color: rgb(255, 255, 255);
+    }
+</style>
+
+<body>
+    <div class="results">
+        {% if isFeriado %}
+        <h1>Hoje é feriado :)</h1>
+       {% else %}
+        <h1>Hoje não é feriado :(</h1>
+       {% endif %}
+   
+    </div>
+   
+    </body>
+
+</html>
+
+<style>
+    .results{
+       text-align: center !important;
+    }
+</style>
